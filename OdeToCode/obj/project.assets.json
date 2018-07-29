@@ -12218,23 +12218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vijay\\.nuget\\packages\\": {},
+    "C:\\Users\\Owner\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\OdeToCode\\OdeToCode\\OdeToCode.csproj",
+      "projectUniqueName": "C:\\Dev\\OdeToCode\\OdeToCode\\OdeToCode.csproj",
       "projectName": "OdeToCode",
-      "projectPath": "C:\\dev\\OdeToCode\\OdeToCode\\OdeToCode.csproj",
-      "packagesPath": "C:\\Users\\vijay\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\OdeToCode\\OdeToCode\\obj\\",
+      "projectPath": "C:\\Dev\\OdeToCode\\OdeToCode\\OdeToCode.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\OdeToCode\\OdeToCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\vijay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
