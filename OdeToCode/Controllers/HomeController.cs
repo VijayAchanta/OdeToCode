@@ -23,5 +23,37 @@ namespace OdeToCode.Controllers
             model.CurrentMessage = _greeter.GetMessageOfTheDay();
             return View(model);
         }
+        public IActionResult Details(int id)
+        {
+            var model = _restaurantData.Get(id);
+            if (model == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            return View(model);
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(RestaurantEditModel model)
+        {
+            if (ModelState.IsValid)
+            { 
+            Restaurant newRestaurant = new Restaurant();
+            newRestaurant.Name = model.Name;
+            newRestaurant.Cuisine = model.Cuisine;
+            Restaurant restaurant = _restaurantData.Add(newRestaurant);
+            //return View("Details", restaurant);
+            return RedirectToAction(nameof(Details), new { id = restaurant.Id });
+            }
+            else
+            {
+                return View();
+            }
+        }
     }
 }

@@ -21,3 +21,6 @@ C:\dev\OdeToCode\OdeToCode\obj\Debug\netcoreapp2.1\OdeToCode.Views.pdb
 C:\dev\OdeToCode\OdeToCode\obj\Debug\netcoreapp2.1\OdeToCode.csproj.CopyComplete
 C:\dev\OdeToCode\OdeToCode\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Dev\OdeToCode\OdeToCode\obj\Debug\netcoreapp2.1\OdeToCode.csprojAssemblyReference.cache
+C:\Dev\OdeToCode\OdeToCode\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.g.cshtml.cs
+C:\Dev\OdeToCode\OdeToCode\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Dev\OdeToCode\OdeToCode\obj\Debug\netcoreapp2.1\Razor\Views\Home\Create.g.cshtml.cs
